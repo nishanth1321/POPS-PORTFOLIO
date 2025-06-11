@@ -23,20 +23,7 @@ const testimonials = [
     designation: "UI/UX Lead, Creatify Studio",
     src: "/female2.jpg",
   },
-  {
-    quote:
-      "Handled complex integrations with ease — from third-party APIs to real-time data updates. Couldn’t be more satisfied.",
-    name: "Arjun Mehta",
-    designation: "CTO, WebCore Labs",
-    src: "/male3.jpg",
-  },
-  {
-    quote:
-      "Excellent communication, clean code, and great problem-solving skills. A reliable full-stack partner.",
-    name: "Sneha Rao",
-    designation: "Marketing Head, Brandverse Tech",
-    src: "/female1.jpg",
-  },
+ 
 ];
 
 const TestHome = () => {

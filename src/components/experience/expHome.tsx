@@ -6,7 +6,7 @@ const expData = [
     title: "Freelancing Experience",
     content: (
       <p>
-        <span className="text-purple-500 text-xl">Freelance Developer:</span> Worked on
+        <span className="text-teal-500 text-xl">Freelance Developer:</span> Worked on
         various projects as a freelancer, delivering full-stack solutions for
         clients. <br />
         <span className="text-slate-400 text-sm">January 2024 – Present</span>
@@ -17,7 +17,7 @@ const expData = [
     title: "Application Development Intern",
     content: (
       <p>
-        <span className="text-purple-500 text-xl">
+        <span className="text-teal-500 text-xl">
           Application Development Intern at Xyloinc:
         </span>{" "}
         Developed and maintained applications, focusing on improving user
@@ -32,8 +32,8 @@ const expData = [
     title: "FullStack Developer Intern",
     content: (
       <p>
-        <span className="text-purple-500 text-xl">
-          FullStack Developer Intern at Synecx AI Labs:
+        <span className="text-teal-500 text-xl">
+          FullStack Developer at InfoSphere IT Solutions:
         </span>{" "}
         Contributed to building scalable web applications with a focus on both
         front-end and back-end development. <br />

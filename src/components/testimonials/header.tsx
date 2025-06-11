@@ -4,24 +4,22 @@ import { TypewriterEffect } from "../../ui/typeWriter";
 export function TypewriterEffectDemo() {
   const words = [
     {
-      text: "Console",
+      text: "export",
     },
     {
-      text: ".",
+      text: "default",
     },
+  
     {
-      text: "Log",
+      text: "SuccessStory",
     },
-    {
-      text: "(",
-    },
-    {
-      text: "Impact",
-      className: "text-purple-500 dark:text-blue-500",
-    },
-    {
-        text: ")",
-      },
+    // {
+    //   text: "Impact",
+    //   className: "text-purple-500 dark:text-blue-500",
+    // },
+    // {
+    //     text: ")",
+    //   },
   ];
   return (
     <div className="flex flex-col items-center justify-center h-full ">

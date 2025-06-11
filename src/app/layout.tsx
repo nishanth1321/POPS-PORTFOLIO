@@ -50,7 +50,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Nishanth K R",
+  title: "Priyadharshini V N",
   description: "Fullstack Developer Portfolio",
 };
 

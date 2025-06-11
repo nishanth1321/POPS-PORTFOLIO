@@ -87,12 +87,12 @@ const Proj3Home: React.FC = () => {
             {/* Desktop version with 3D effect */}
             <PinContainer
               title="View Project"
-              href="https://synecxailabs.io"
+              href="https://docsynecx.com"
               containerClassName="w-64 h-96 hidden md:block"
               className="flex items-center justify-center"
             >
               <img
-                src="/synecxlogo.svg"
+                src="/docsynecx.svg"
                 alt="Sample Project"
                 className="w-full h-full object-contain rounded-2xl"
               />
@@ -101,7 +101,7 @@ const Proj3Home: React.FC = () => {
             {/* Mobile version without the pin container effect */}
             <div className="md:hidden w-64 h-80 relative">
               <img
-                src="/synecxlogo.svg"
+                src="/docsynecx.svg"
                 alt="Sample Project"
                 className="w-full h-full object-contain rounded-2xl"
               />
@@ -111,14 +111,10 @@ const Proj3Home: React.FC = () => {
           {/* Right 3/4: Text Section */}
           <div className="w-full lg:w-3/4 flex flex-col space-y-6 text-center lg:text-left">
             <h2 className="text-3xl sm:text-4xl font-bold text-white">
-              Synecxailabs.io
+              Docsynecx.com
             </h2>
             <p className="text-gray-300 text-lg max-w-2xl">
-              Designed and developed the official website of SynecX AI Labs with
-              a fully responsive, animated user interface and interactive user
-              experience. Implemented dynamic content, form handling, and
-              seamless backend integration to support user interactions and
-              inquiries.
+             A modern, responsive, and animated website built using Next.js and Tailwind CSS. Designed to deliver a smooth user experience across all devices, the site features dynamic routing, motion-based UI elements, and clean, scalable component architecture. It effectively showcases DocSynecx services with fast load times, SEO optimization.
             </p>
           </div>
         </div>
@@ -127,9 +123,10 @@ const Proj3Home: React.FC = () => {
       <div className="w-full max-w-7xl flex justify-end px-6 py-2">
         <a
           href="/projects"
-          className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+          className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-teal-900 focus:ring-offset-2 focus:ring-offset-ring-teal-900"
         >
-          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#A7F3D0_0%,#0F766E_50%,#A7F3D0_100%)]
+" />
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
             view More
           </span>

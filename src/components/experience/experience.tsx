@@ -46,7 +46,7 @@ export const Experience = ({ data }: { data: TimelineEntry[] }) => {
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 text-center">
         <h2 className="text-white text-3xl font-bold mb-4">
           My{" "}
-          <span className="bg-gradient-to-r from-purple-100 via-purple-500 to-purple-800 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-teal-100 via-teal-500 to-teal-800 text-transparent bg-clip-text">
             Experience
           </span>
         </h2>
@@ -66,7 +66,7 @@ export const Experience = ({ data }: { data: TimelineEntry[] }) => {
           >
             <motion.div
               style={{ height: heightTransform, opacity: opacityTransform }}
-              className="absolute inset-x-0 top-0 w-[3px] bg-gradient-to-t from-indigo-500 via-purple-400 to-blue-100 rounded-full"
+              className="absolute inset-x-0 top-0 w-[3px] bg-gradient-to-t from-indigo-500 via-teal-400 to-blue-100 rounded-full"
             />
           </div>
         </div>

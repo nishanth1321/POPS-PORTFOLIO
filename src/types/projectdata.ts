@@ -19,7 +19,7 @@ export const projects = [
       description: "Designed and developed the official website of SynecX AI Labs with a fully responsive, animated user interface and interactive user experience. Implemented dynamic content, form handling, and seamless backend integration to support user interactions and inquiries",
       image:
       "/synecx-web.png",
-      link: "https://example.com/portfolio",
+      link: "https://synecxailabs.io",
     },
     {
       title: "BNI - Business Networking International",
