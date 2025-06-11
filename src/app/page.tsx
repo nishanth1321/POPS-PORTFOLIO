@@ -3,7 +3,6 @@ import { LampDemo } from "@/components/project/projHeader";
 import Proj1Home from "@/components/project/proj1Home";
 import Proj2Home from "@/components/project/proj2Home";
 import Proj3Home from "@/components/project/Proj3Home";
-import TestHome from "@/components/testimonials/testHome";
 import { Hero } from "@/components/hero";
 import { TsHome } from "@/components/techStack/tsHome";
 const products = [
@@ -91,7 +90,6 @@ export default function Home() {
         <Proj2Home />
         <Proj3Home />
       </div>
-      <TestHome />
     </div>
   );
 }
